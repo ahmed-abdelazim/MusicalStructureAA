@@ -2,9 +2,13 @@
     <string name="app_name">Musical Structure AA</string>
     <string name="Mishary">Mishary Image</string>
     <string name="SubTitle">All songs of Mishary</string>
-    <string name="qalby">qalby</string>
-    <string name="haneeny">haneeny</string>
-    <string name="qalby">qalby</string>
-    <string name="oyoon">oyoon</string>
-    <string name="haneeny">haneeny</string>
+    <string name="qalby">Qalby</string>
+    <string name="oyoon">Oyoon</string>
+    <string name="haneeny">Haneeny</string>
+    <string name="track_remaining">0:00</string>
+    <string name="track_total_length">3:11</string>
+    <string name="mock_artist">Mishary</string>
+    <string name="mock_song_name">Qalby</string>
+    <string name="AlbumPoster">Album Poster</string>
+
 </resources>
