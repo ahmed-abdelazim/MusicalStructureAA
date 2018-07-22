@@ -5,33 +5,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ListView;
-import java.util.ArrayList;
 
-public class Haneeny extends AppCompatActivity {
-
-
-    private ListView listView;
-    private songAdapter mAdapter;
+public class list_buttons extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list);
-        listView = findViewById(R.id.movies_list);
-        ArrayList<song> moviesList = new ArrayList<>();
-        moviesList.add(new song(R.drawable.haneeny, "Song 1" , "2013"));
-        moviesList.add(new song(R.drawable.haneeny, "Song 2" , "2017"));
-        moviesList.add(new song(R.drawable.haneeny, "Song 3" , "2016"));
-        moviesList.add(new song(R.drawable.haneeny, "Song 4" , "2014"));
-        moviesList.add(new song(R.drawable.haneeny, "Song 5" , "1999"));
-        moviesList.add(new song(R.drawable.haneeny, "Song 6" , "1975"));
-        moviesList.add(new song(R.drawable.haneeny, "Song 7" , "2011"));
-        moviesList.add(new song(R.drawable.haneeny, "Song 8" , "2016"));
-        moviesList.add(new song(R.drawable.haneeny, "Song 9" , "2011"));
-
-        mAdapter = new songAdapter(this,moviesList);
-        listView.setAdapter(mAdapter);
 
         Button qalby = findViewById(R.id.qalbyButton);
         qalby.setOnClickListener(new View.OnClickListener() {
@@ -80,7 +60,5 @@ public class Haneeny extends AppCompatActivity {
                 // Start the new activity
                 startActivity(homeIntent);}
         });
-
-
     }
 }

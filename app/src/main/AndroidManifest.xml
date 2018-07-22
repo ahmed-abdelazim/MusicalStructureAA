@@ -18,14 +18,15 @@
         </activity>
         <activity
             android:name=".Qalby"
-            android:label="@string/qalby"
-            android:exported="true"/>
+            android:exported="true"
+            android:label="@string/qalby" />
         <activity
             android:name=".Oyoon"
             android:label="@string/oyoon" />
         <activity
             android:name=".Haneeny"
             android:label="@string/haneeny" />
+        <activity android:name=".list_buttons"></activity>
     </application>
 
 </manifest>

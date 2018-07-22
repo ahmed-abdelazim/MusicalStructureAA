@@ -10,5 +10,6 @@
     <string name="mock_artist">Mishary</string>
     <string name="mock_song_name">Qalby</string>
     <string name="AlbumPoster">Album Poster</string>
+    <string name="home">Home</string>
 
 </resources>

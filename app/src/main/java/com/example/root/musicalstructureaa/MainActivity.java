@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link Haneeny Activity}
-                Intent haneenyIntent = new Intent(MainActivity.this, Haneeny.class);
+                Intent haneenyIntent = new Intent(getApplicationContext(), Haneeny.class);
 
                 // Start the new activity
                 startActivity(haneenyIntent);
